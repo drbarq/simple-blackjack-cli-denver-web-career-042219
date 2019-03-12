@@ -61,5 +61,5 @@ def runner
       prompt_user
     return hit?(current_total)
   end
-  end_game(current_total)
+  return end_game(current_total)
 end
