@@ -9,10 +9,17 @@ end
 
 def display_card_total(card_total)
   # code #display_card_total here
+
 end
 
 def prompt_user
   # code #prompt_user here
+  input = get.chomp
+  if input == "h"
+    hit?
+  end
+  if input == "s"
+    ##stay 
 end
 
 def get_user_input
