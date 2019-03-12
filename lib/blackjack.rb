@@ -55,6 +55,7 @@ end
 def runner
   # code runner here
   welcome
+  initial_round
   current_total = initial_round
     until current_total > 21
       prompt_user
