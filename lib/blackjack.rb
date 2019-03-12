@@ -55,6 +55,7 @@ end
 def runner
   # code runner here
   card_total = 0
+  welcome
   until card_total > 21
     initial_round 
     prompt_user
