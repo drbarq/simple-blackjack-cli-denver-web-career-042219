@@ -54,11 +54,11 @@ end
 
 def runner
   # code runner here
-    welcome
-  current_total = 0
+  welcome
+  current_total = initial_round
 
   until current_total > 21
-    puts initial_round
+    puts 
 
     prompt_user
     hit?(current_total)
