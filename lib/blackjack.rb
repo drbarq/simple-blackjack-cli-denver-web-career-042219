@@ -26,7 +26,7 @@ def get_user_input
   end
   if input == "s"
     ##stay
-  end 
+  end
 end
 
 def end_game
