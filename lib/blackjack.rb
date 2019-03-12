@@ -18,6 +18,7 @@ end
 
 def get_user_input
   # code #get_user_input here
+
   input = get.chomp
   if input == "h"
     hit?
@@ -25,7 +26,6 @@ def get_user_input
   if input == "s"
     ##stay
   end
-
 
   return input
 end
