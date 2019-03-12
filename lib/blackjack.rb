@@ -58,6 +58,7 @@ def runner
   welcome
   until current_total > 21
     initial_round
+    
     prompt_user
     hit?(current_total)
   end
