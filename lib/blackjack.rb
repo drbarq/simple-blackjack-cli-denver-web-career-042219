@@ -42,8 +42,6 @@ action = get_user_input
     invalid_command
     prompt_user
   end
-
-  # code hit? here
 end
 
 def invalid_command
