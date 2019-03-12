@@ -4,10 +4,7 @@ def welcome
 end
 
 def deal_card
-  # code #deal_card here
-  range = 1..11
-  puts range.sample
-  return range.sample
+  return rand(1..11)
 end
 
 def display_card_total
