@@ -5,8 +5,8 @@ end
 
 def deal_card
   # code #deal_card here
-  puts 1..11.sample
-  return 1..11.sample
+  puts (1..11).sample
+  return (1..11).sample
 end
 
 def display_card_total
