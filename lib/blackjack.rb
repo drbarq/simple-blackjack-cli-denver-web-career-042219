@@ -21,7 +21,15 @@ end
 def get_user_input
   # code #get_user_input here
   input = get.chomp
-  return input
+  if input == "h"
+    hit?
+  end
+  if input == "s"
+    ##stay
+  end
+
+  
+  return input 
 end
 
 def end_game
