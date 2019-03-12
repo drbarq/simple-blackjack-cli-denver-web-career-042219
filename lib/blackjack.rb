@@ -29,7 +29,7 @@ def get_user_input
   end
 
   
-  return input 
+  return input
 end
 
 def end_game
