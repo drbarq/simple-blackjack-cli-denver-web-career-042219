@@ -57,7 +57,7 @@ def runner
   current_total = 0
   welcome
   until current_total > 21
-    initial_round
+    puts initial_round
     
     prompt_user
     hit?(current_total)
