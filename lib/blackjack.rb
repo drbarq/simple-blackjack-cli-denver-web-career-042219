@@ -19,7 +19,8 @@ def prompt_user
     hit?
   end
   if input == "s"
-    ##stay 
+    ##stay
+  end 
 end
 
 def get_user_input
