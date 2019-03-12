@@ -60,8 +60,6 @@ def runner
     initial_round = card_total
     prompt_user
     hit?(current_total) = card_total
-
-
-
-
+  end 
+  end_game(card_total)
 end
