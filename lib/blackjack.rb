@@ -39,6 +39,8 @@ def hit?(card_total)
   end
   if get_user_input == "s"
 
+else
+  puts "Please enter a valid command"
 
   # code hit? here
 end
