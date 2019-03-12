@@ -54,8 +54,9 @@ end
 
 def runner
   # code runner here
+    welcome
   current_total = 0
-  welcome
+
   until current_total > 21
     puts initial_round
 
