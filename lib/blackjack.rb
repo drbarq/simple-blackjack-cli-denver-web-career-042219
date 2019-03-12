@@ -36,16 +36,20 @@ def hit?(card_total)
   get_user_input
   if get_user_input == "h"
     return deal_card + card_total
-  end
-  if get_user_input == "s"
+  elsif get_user_input == "s"
 
-else
-  puts "Please enter a valid command"
+
+  else
+    invalid_command
+    prompt_user
+  end
 
   # code hit? here
 end
 
 def invalid_command
+
+  puts "Please enter a valid command"
   # code invalid_command here
 end
 
