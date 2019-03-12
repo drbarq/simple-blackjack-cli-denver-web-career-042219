@@ -58,7 +58,8 @@ def runner
     until current_total > 21
     ##  hit?(current_total)
       current_total = hit?(current_total)
-      puts current_total
+      puts display_card_total(current_total)
+    ##  puts current_total
     ##  puts hit?(current_total)
     end
   return end_game(current_total)
